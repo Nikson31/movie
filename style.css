@@ -1,0 +1,85 @@
+
+body{
+        background-image:url("image/oc.jpg");
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+    }
+    
+    form{
+        display:inline-block;
+        background-image:url("image/ji.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        border:1px solid black;
+        padding:30px;
+        border-radius:30px;
+    }
+    .t{
+        
+    }
+    .t td{
+        color:white;
+    }
+    input[type=number],input[type=text],input[type=tel],input[type=email],input[type=date]{
+
+        width:150px;
+        height:30px;
+    
+    }
+    select{
+        width:150px;
+        height:30px;
+    }
+    input[type=submit]{
+     font-size:18px;
+     background-color:c4d4d4;
+     height:30px;
+     width:70px;
+     margin:10px 0px 0px 0px;
+    }
+    input[type=reset]{
+     font-size:18px;
+     background-color:c4d4d4;
+     height:30px;
+     width:70px;
+     margin:10px 0px 0px 0px;
+    }
+    input[type=submit]:hover{
+    background-color:red;
+    border:2px solid black;
+}
+input[type=reset]:hover{
+    background-color:yellow;
+    border:2px solid black;
+
+}
+td{
+    height:40px;
+    font-size:30px;
+    padding:5px;
+}
+th{
+    height:40px;
+    font-size:30px;
+    padding:5px;
+}
+
+
+
+.b td,th{
+    font-size:20px;
+}
+
+.b{
+    border:1px solid cyan;
+    border-collapse:collapse;
+    background-color:c4d4d4;
+   
+}
+h3{
+    font-size:30px;
+    font-family:Arial;
+    display:inline-block;
+    background-color:white;
+}
